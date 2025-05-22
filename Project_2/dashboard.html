@@ -172,7 +172,169 @@
       </div>
 
       <!-- Task Table -->
-      <div></div>
+      <div class="grid grid-cols-2 gap-6 mb-10">
+        <!-- Today's Tasks -->
+        <div class="bg-white p-5 shadow-sm rounded-xl">
+          <h2 class="text-3xl font-bold pb-3 border-b">Today's Tasks</h2>
+
+          <div class="flex justify-between pt-4">
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 rounded-full bg-green-500"></div>
+              <div><span>Complete project proposal</span></div>
+            </div>
+            <div><span class="text-gray-500">High</span></div>
+          </div>
+
+          <div class="flex justify-between pt-3">
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+              <div><span>Review team updates</span></div>
+            </div>
+            <div><span class="text-gray-500">Normal</span></div>
+          </div>
+
+          <div class="flex justify-between pt-3">
+            <div class="flex items-center gap-2">
+              <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+              <div><span>Prepare for client meeting</span></div>
+            </div>
+            <div><span class="text-gray-500">Low</span></div>
+          </div>
+        </div>
+
+        <!-- All Tasks -->
+        <div class="bg-white p-5 shadow-sm rounded-xl">
+          <h2 class="text-3xl font-bold pb-3 border-b">All Tasks</h2>
+
+          <div
+            class="grid grid-cols-4 p-3 text-sm text-gray-500 border-b border-gray-100"
+          >
+            <div>TASK TITLE</div>
+            <div>PRIORITY</div>
+            <div>TEAM</div>
+            <div>CREATED AT</div>
+          </div>
+
+          <!-- Task Items -->
+          <div class="divide-y divide-gray-100">
+            <!-- Task Item 1 -->
+            <div class="grid grid-cols-4 pt-2 ps-3">
+              <div class="flex items-center gap-2">
+                <div class="w-2 h-2 rounded-full bg-green-500"></div>
+                <div><span> Test Low Task</span></div>
+              </div>
+
+              <div>
+                <span
+                  class="px-3 py-1 bg-blue-200 rounded-full text-sm text-blue-600"
+                  >Low</span
+                >
+              </div>
+
+              <div class="flex -space-x-2">
+                <div
+                  class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  CA
+                </div>
+                <div
+                  class="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  JS
+                </div>
+                <div
+                  class="w-8 h-8 bg-yellow-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  B
+                </div>
+              </div>
+
+              <div>
+                <span class="text-gray-500">9 monts ago...</span>
+              </div>
+            </div>
+
+            <!-- Task Item 2 -->
+            <div class="grid grid-cols-4 pt-2 ps-3">
+              <div class="flex items-center gap-2">
+                <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+                <div><span> Test Task</span></div>
+              </div>
+
+              <div>
+                <span
+                  class="px-3 py-1 bg-gray-200 rounded-full text-sm text-gray-600"
+                  >Normal</span
+                >
+              </div>
+
+              <div class="flex -space-x-2">
+                <div
+                  class="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  AJ
+                </div>
+                <div
+                  class="w-8 h-8 bg-purple-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  EV
+                </div>
+                <div
+                  class="w-8 h-8 bg-yellow-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  B
+                </div>
+              </div>
+
+              <div>
+                <span class="text-gray-500">9 monts ago...</span>
+              </div>
+            </div>
+
+            <!-- Task Item 3 -->
+            <div class="grid grid-cols-4 pt-2 ps-3">
+              <div class="flex items-center gap-2">
+                <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                <div><span> Test Task</span></div>
+              </div>
+
+              <div>
+                <span
+                  class="px-3 py-1 bg-red-200 rounded-full text-sm text-red-600"
+                  >High</span
+                >
+              </div>
+
+              <div class="flex -space-x-2">
+                <div
+                  class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  CA
+                </div>
+                <div
+                  class="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  JS
+                </div>
+                <div
+                  class="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  AJ
+                </div>
+                <div
+                  class="w-8 h-8 bg-yellow-500 text-white rounded-full flex items-center justify-center text-sm border-2 border-white"
+                >
+                  B
+                </div>
+              </div>
+
+              <div>
+                <span class="text-gray-500">9 monts ago...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
